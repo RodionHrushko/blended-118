@@ -465,7 +465,6 @@ a {
 .sup-conteiner {
     display: flex;
     height: 500px;
-     display: flex;
     margin-top: 100px;
 }
 
@@ -520,3 +519,52 @@ a {
 .sup-item:last-child {
     margin-bottom: 0;
  }
+
+ .opti-section {
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+ }
+
+ .opti-tex-conteiner {
+    margin-top: 41px;
+ }
+
+ .opti-text-wan {
+    font-weight: 600;
+        font-size: 16px;
+        color: #22343d;
+ }
+
+ .opti-taitle {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+    margin-top: 8px;
+ }
+
+ .opti-text-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343d;
+    margin-top: 30px;
+ }
+
+ .opti-text-title-wan{
+    margin-top: 25px;
+ }
+
+ .opti-text .dwa{
+    margin-top: 25px;
+ }
+
+ .opti-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343d;
+    margin-top: 12px;
+ }
+
+ .opti-img {}
