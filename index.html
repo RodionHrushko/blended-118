@@ -11,249 +11,285 @@
       href="https://fonts.googleapis.com/css2?family=Inter:,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <a class="header-link" href="./index.html"
-        ><img class="header-img" src="./imj/logo.png" alt="logo" />Product</a
-      >
-      <ul class="header-list">
-        <li class="header-item">
-          <a class="header-item-link" href="">Product</a>
-        </li>
-        <li class="header-item">
-          <a class="header-item-link" href="">Pricing</a>
-        </li>
-        <li class="header-item">
-          <a class="header-item-link" href="">Customers</a>
-        </li>
-        <li class="header-item">
-          <a class="header-item-link" href="">Resources</a>
-        </li>
-      </ul>
-      <button class="header-in" type="button">Sign In</button>
-      <button class="header-up" type="button">Sign Up</button>
-    </header>
-    <main>
-      <section>
-        <h1 class="section-work">Work at the speed of thought</h1>
-        <p class="work-text">
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <section>
-          <button class="work-button" type="button">Get started</button>
+    <div class="conteiner">
+      <header class="header">
+        <div class="conteiner-heder">
+          <nav class="header-nav">
+            <a class="header-link" href="./index.html"
+              ><img class="header-img" src="./imj/logo.png" alt="logo"
+            /></a>
+            <p class="logo-heder">Product</p>
+            <ul class="header-list">
+              <li class="header-item">
+                <a class="header-item-link" href="">Product</a>
+              </li>
+              <li class="header-item">
+                <a class="header-item-link" href="">Pricing</a>
+              </li>
+              <li class="header-item">
+                <a class="header-item-link" href="">Customers</a>
+              </li>
+              <li class="header-item">
+                <a class="header-item-link" href="">Resources</a>
+              </li>
+            </ul>
+            <div class="heder-btn">
+              <button class="header-in" type="button">Sign In</button>
+              <button class="header-up" type="button">Sign Up</button>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <section class="main-work">
+          <div class="main-work-sek">
+            <h1 class="section-work">Work at the speed of thought</h1>
+            <p class="work-text">
+              Tools, tutorials, design and innovation experts, all in<br />
+              one place! The most intuitive way to imagine your<br />
+              next user experience.
+            </p>
+            <div class="work-btn">
+              <button class="work-button" type="button">Get started</button>
+              <div class="work-button-vid">
+                <img
+                  class="work-blok-img"
+                  alt=""
+                  src="./imj/TriangleCopy6.png"
+                />
+
+                <a class="btn-link" href="">Watch the Video</a>
+              </div>
+            </div>
+          </div>
+          <img class="work-img-fot" src="./imj/hero-img.png" />
         </section>
+        <section class="product-section">
+          <h2 class="product">
+            Product was Built Specifically<br />
+            for You
+          </h2>
 
-        <button>
-          <img class="work-blok-img" src="./imj/TriangleCopy6.png" />
-          Watch the Video
-        </button>
+          <ul class="product-list">
+            <li class="product-item">
+              <img class="product-item-img" src="./imj/icon-1.png" />
+              <h3 class="product-item-subtitle">First click tests</h3>
+              <p class="product-item-text">
+                While most people enjoy casino gambling,
+              </p>
+            </li>
+            <li class="product-item">
+              <img class="product-item-img" src="./imj/icon-2.png" />
+              <h3 class="product-item-subtitle">Design surveys</h3>
+              <p class="product-item-text">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
+            </li>
+            <li class="product-item">
+              <img class="product-item-img" src="./imj/icon-3.png" />
+              <h3 class="product-item-subtitle">Preference tests</h3>
+              <p class="product-item-text">
+                The Myspace page defines the individual.
+              </p>
+            </li>
+            <li class="product-item">
+              <img class="product-item-img" src="./imj/icon-4.png" />
+              <h3 class="product-item-subtitle">Five second tests</h3>
+              <p class="product-item-text">
+                Personal choices and the overall personality of the person.
+              </p>
+            </li>
+          </ul>
 
-        <img class="work-img-fot" src="./imj/hero-img.png" />
-      </section>
-      <section>
-        <h2 class="product">Product was Built Specifically for You</h2>
-        <ul class="product-list">
-          <li class="product-item">
-            <img class="product-item-img" src="./imj/icon-1.png" />
-            <h3 class="product-item-subtitle">First click tests</h3>
-            <p class="product-item-text">
-              While most people enjoy casino gambling,
+          <button class="product-buttom" type="button">SIGN UP NOW</button>
+        </section>
+        <section class="manag-conteiner">
+          <div class="manag-text-conteinert">
+            <p class="manag-text-bolt">Effortless Validation for</p>
+            <h2 class="manag">Management</h2>
+            <p class="manag-text-wan">
+              The Myspace page defines the individual, his or her<br />
+              characteristics, traits, personal choices and the overall<br />
+              personality of the person.
             </p>
-          </li>
-          <li class="product-item">
-            <img class="product-item-img" src="./imj/icon-2.png" />
-            <h3 class="product-item-subtitle">Design surveys</h3>
-            <p class="product-item-text">
-              Sports betting, lottery and bingo playing for the fun
+            <p class="manag-text-bolt-wan">Accessory makers</p>
+            <p class="manag-text">
+              While most people enjoy casino gambling, sports betting,<br />
+              lottery and bingo playing for the fun
             </p>
-          </li>
-          <li class="product-item">
-            <img class="product-item-img" src="./imj/icon-3.png" />
-            <h3 class="product-item-subtitle">Preference tests</h3>
-            <p class="product-item-text">
-              The Myspace page defines the individual.
+            <p class="manag-text-bolt">Alterationists</p>
+            <p class="manag-text">
+              If you are looking for a new way to promote your business<br />
+              that won’t cost you more money,
             </p>
-          </li>
-          <li class="product-item">
-            <img class="product-item-img" src="./imj/icon-4.png" />
-            <h3 class="product-item-subtitle">Five second tests</h3>
-            <p class="product-item-text">
-              Personal choices and the overall personality of the person.
-            </p>
-          </li>
-        </ul>
-        <button class="product-buttom" type="button">SIGN UP NOW</button>
-      </section>
-      <section>
-        <p class="manag-text-bolt">Effortless Validation for</p>
-        <h2 class="manag">Management</h2>
-        <p class="manag-text">
-          The Myspace page defines the individual, his or her characteristics,
-          traits, personal choices and the overall personality of the person.
-        </p>
-        <p class="manag-text-bolt">Accessory makers</p>
-        <p>
-          While most people enjoy casino gambling, sports betting, lottery and
-          bingo playing for the fun
-        </p>
-        <p class="manag-text-bolt">Alterationists</p>
-        <p class="manag-text">
-          If you are looking for a new way to promote your business that won’t
-          cost you more money,
-        </p>
-        <img src="./imj/management-img.png" />
-      </section>
-      <section>
-        <img src="./imj/support-img.png" />
-        <p>Easier decision making for</p>
-        <h2>Customer Support</h2>
-        <p>
-          The Myspace page defines the individual, his or her characteristics,
-          traits, personal choices and the overall personality of the person.
-        </p>
-        <ul>
-          <li>
-            <img src="./imj/icon.png" />Never worry about overpaying for your
-            energy again.
-          </li>
-          <li>
-            <img src="./imj/icon(1).png" />We will only switch you to energy
-            companies that we trust and will treat you right
-          </li>
-          <li>
-            <img src="./imj/icon(2).png" />We track the markets daily and know
-            where the savings are.
-          </li>
-        </ul>
-      </section>
-      <section>
-        <p>Optimisation for</p>
-        <h2>Collaborative</h2>
-        <p>
-          Few would argue that, despite the advancements of feminism over the
-          past three decades, women still face a double standard when it comes
-          to their behavior.
-        </p>
-        <p>Accessory makers</p>
-        <p>
-          While most people enjoy casino gambling, sports betting, lottery and
-          bingo playing for the fun
-        </p>
-        <p>Alterationists</p>
-        <p>
-          If you are looking for a new way to promote your business that won’t
-          cost you more money,
-        </p>
-        <img src="./imj/collaboration-img(1).png" />
-      </section>
-      <section>
-        <h2>Quick & Easy Process</h2>
-        <p>
-          Do you require some help for your project: Conception workshop,
-          prototyping, marketing strategy, landing page, Ux/UI?
-        </p>
-        <section></section>
-        <button type="button">Contact our expert</button>
-      </section>
-      <section>
-        <h2>Contents Strategies</h2>
-        <p>
-          We focus on ergonomics and meeting you where you work. It's only a
-          keystroke away.
-        </p>
-        <ul>
-          <li>
-            <img src="./imj/sek111.jpg" />
-            <p>By Wahid Ari | 03 March 2019</p>
-            <a href=""><h3>Increasing Prosperity With Positive Thinking</h3></a>
-          </li>
-          <li>
-            <img src="./imj/sek33.jpg" />
-            <p>By Wahid Ari | 03 March 2019</p>
-            <a href=""><h3>Motivation Is The First Step To Success</h3></a>
-          </li>
-          <li>
-            <img src="./imj/sek22.jpg" />
-            <p>By Wahid Ari | 03 March 2019</p>
-            <a href=""><h3>Success Steps For Your Personal Or Business</h3></a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Price Table</h2>
-        <ul>
-          <li>
-            <h3>Free</h3>
-            <p>Brief price description</p>
-            <img src="./imj/price.png" />
-            <p>Only 2 Operators</p>
-            <p>Notifications</p>
-            <p>Landing Pages</p>
-            <button type="button">Order Now</button>
-          </li>
-          <li>
-            <h3>Standard</h3>
-            <p>Brief price description</p>
-            <img src="./imj/price(1).png" />
-            <p>5+ Operators</p>
-            <p>Notifications</p>
-            <p>Landing Pages</p>
-            <button type="button">Order Now</button>
-          </li>
-          <li>
-            <h3>Premium</h3>
-            <p>Brief price description</p>
-            <img src="./imj/price(2).png" />
-            <p>10+ Operators</p>
-            <p>Notifications</p>
-            <p>Landing Pages</p>
-            <button type="button">Order Now</button>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>What Clients Say</h2>
-        <p>
-          Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics
-        </p>
-        <ul>
-          <li><img src="./imj/card-item.png" /></li>
-          <li><img src="./imj/card-item(1).png" /></li>
-          <li><img src="./imj/card-item(2).png" /></li>
-        </ul>
-      </section>
-      <section>
-        <h2>Join 100 Compannies who boost their business with Product</h2>
-        <button>Get This</button>
-        <img src="./imj/graphics.png" />
-      </section>
-    </main>
-    <footer>
-      <a href="./index.html"><img src="./imj/logo.png" />Product</a>
-      <a href=""><img src="./imj/item-1.png" /></a
-      ><a href=""><img src="./imj/item-2.png" /></a
-      ><a href=""><img src="./imj/item-3.png" /></a>
-      <section>
-        <h3>Resource</h3>
-        <a href="">About Us</a>
-        <a href="">Blog</a>
-        <a href="">Contact</a>
-        <a href="">FAQ</a>
-      </section>
-      <section>
-        <h3>Legal Stuff</h3>
-        <a href="">Disclaimer</a>
-        <a href="">Financing</a>
-        <a href="">Privacy Policy</a>
-      </section>
-      <section>
-        <h3>knowing you're always on the best energy deal.</h3>
-      </section>
-      <p>Made With Love By Figmaland All Right Reserved</p>
-    </footer>
+          </div>
+          <img class="manag-img" src="./imj/management-img.png" />
+        </section>
+        <section>
+          <img src="./imj/support-img.png" />
+          <p>Easier decision making for</p>
+          <h2>Customer Support</h2>
+          <p>
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <ul>
+            <li>
+              <img src="./imj/icon.png" />Never worry about overpaying for your
+              energy again.
+            </li>
+            <li>
+              <img src="./imj/icon(1).png" />We will only switch you to energy
+              companies that we trust and will treat you right
+            </li>
+            <li>
+              <img src="./imj/icon(2).png" />We track the markets daily and know
+              where the savings are.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <p>Optimisation for</p>
+          <h2>Collaborative</h2>
+          <p>
+            Few would argue that, despite the advancements of feminism over the
+            past three decades, women still face a double standard when it comes
+            to their behavior.
+          </p>
+          <p>Accessory makers</p>
+          <p>
+            While most people enjoy casino gambling, sports betting, lottery and
+            bingo playing for the fun
+          </p>
+          <p>Alterationists</p>
+          <p>
+            If you are looking for a new way to promote your business that won’t
+            cost you more money,
+          </p>
+          <img src="./imj/collaboration-img(1).png" />
+        </section>
+        <section>
+          <h2>Quick & Easy Process</h2>
+          <p>
+            Do you require some help for your project: Conception workshop,
+            prototyping, marketing strategy, landing page, Ux/UI?
+          </p>
+          <section></section>
+          <button type="button">Contact our expert</button>
+        </section>
+        <section>
+          <h2>Contents Strategies</h2>
+          <p>
+            We focus on ergonomics and meeting you where you work. It's only a
+            keystroke away.
+          </p>
+          <ul>
+            <li>
+              <img src="./imj/sek111.jpg" />
+              <p>By Wahid Ari | 03 March 2019</p>
+              <a href=""
+                ><h3>Increasing Prosperity With Positive Thinking</h3></a
+              >
+            </li>
+            <li>
+              <img src="./imj/sek33.jpg" />
+              <p>By Wahid Ari | 03 March 2019</p>
+              <a href=""><h3>Motivation Is The First Step To Success</h3></a>
+            </li>
+            <li>
+              <img src="./imj/sek22.jpg" />
+              <p>By Wahid Ari | 03 March 2019</p>
+              <a href=""
+                ><h3>Success Steps For Your Personal Or Business</h3></a
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Price Table</h2>
+          <ul>
+            <li>
+              <h3>Free</h3>
+              <p>Brief price description</p>
+              <img src="./imj/price.png" />
+              <p>Only 2 Operators</p>
+              <p>Notifications</p>
+              <p>Landing Pages</p>
+              <button type="button">Order Now</button>
+            </li>
+            <li>
+              <h3>Standard</h3>
+              <p>Brief price description</p>
+              <img src="./imj/price(1).png" />
+              <p>5+ Operators</p>
+              <p>Notifications</p>
+              <p>Landing Pages</p>
+              <button type="button">Order Now</button>
+            </li>
+            <li>
+              <h3>Premium</h3>
+              <p>Brief price description</p>
+              <img src="./imj/price(2).png" />
+              <p>10+ Operators</p>
+              <p>Notifications</p>
+              <p>Landing Pages</p>
+              <button type="button">Order Now</button>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>What Clients Say</h2>
+          <p>
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
+          <ul>
+            <li><img src="./imj/card-item.png" /></li>
+            <li><img src="./imj/card-item(1).png" /></li>
+            <li><img src="./imj/card-item(2).png" /></li>
+          </ul>
+        </section>
+        <section>
+          <h2>Join 100 Compannies who boost their business with Product</h2>
+          <button>Get This</button>
+          <img src="./imj/graphics.png" />
+        </section>
+      </main>
+      <footer>
+        <a href="./index.html"><img src="./imj/logo.png" />Product</a>
+        <a href=""><img src="./imj/item-1.png" /></a
+        ><a href=""><img src="./imj/item-2.png" /></a
+        ><a href=""><img src="./imj/item-3.png" /></a>
+        <section>
+          <h3>Resource</h3>
+          <a href="">About Us</a>
+          <a href="">Blog</a>
+          <a href="">Contact</a>
+          <a href="">FAQ</a>
+        </section>
+        <section>
+          <h3>Legal Stuff</h3>
+          <a href="">Disclaimer</a>
+          <a href="">Financing</a>
+          <a href="">Privacy Policy</a>
+        </section>
+        <section>
+          <h3>knowing you're always on the best energy deal.</h3>
+        </section>
+        <p>Made With Love By Figmaland All Right Reserved</p>
+      </footer>
+    </div>
   </body>
 </html>
